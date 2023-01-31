@@ -1,0 +1,54 @@
+body{
+    padding: 150px;
+    font-size: large;
+margin-left: 00px;
+    background-color: gray;
+}
+
+label{
+  color: white;
+}
+
+#animals{
+    margin-left: 90;
+    margin-right: 80;
+}
+
+.img-wrapper{
+  display: table;
+  height: 350px;
+  width: 350px;
+  table-layout: fixed;
+  float: left;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 12px;
+}
+.outer{
+    height: 700%;
+}
+.inner{
+    padding: 5px;
+    border-radius: 60px;
+    border: 1px solid gray;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.inner img{
+    display:block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 900px;
+    border-radius: 20px;
+}
+
+button{
+  color: black;
+  background-color: greenyellow;
+}
+
+a{
+  align-items: center;
+  text-align: center;
+}
